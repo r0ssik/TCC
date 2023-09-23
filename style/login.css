@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&family=Poppins:wght@400;600&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+     background-image: url(img/background-login.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CardLogin {
+    background-color: rgba(0, 0, 0, 0.57);
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 70px;
+    border-bottom-right-radius: 42px;
+    border-top-left-radius: 42px;
+    color: #fff;
+    backdrop-filter: blur(10px)
+}
+img {
+    display: block;
+    width:4vw;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    transition:  0.3s ease-in-out;
+}
+.voltar:hover{
+    color: #121212;
+    background-color: #ff8f1c;
+}
+.voltar{
+    position: absolute;
+    left: 2vw;
+    top: 2vh;
+    background-color: #181818;
+    font-size: 15px;
+    letter-spacing: 2.5px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 10px 0;
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+}
+h1 {
+    font-weight: 400;
+    color: white;
+}
+.InputEmail {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid #9DC0FD;
+    border-radius: 5%;
+    background: none;
+    color: #ff8f1c;
+   
+}
+.InputSenha {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid #ff8f1c;
+    border-radius: 5%;
+    background: none;
+    color: #ff8f1c;
+}
+.inputSubmit {
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background: #ff8f1c;
+    border: none;
+    outline: none;
+    transition: 0.3s ease-in-out;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    color: #2B2D31;
+    border-radius: 150px;
+    box-shadow: 0px 0px 40px -12px #ff8f1c;
+}
+.inputSubmit:hover {
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 0px 40px -12px #2B2D31;
+    color: #ff8f1c;
+    border: 2px solid;
+    border-color: #ff8f1c;
+    background-color: #2B2D31;
+}
+
+::-webkit-scrollbar {
+    width:10px;
+}
+::-webkit-scrollbar-track {
+    background: #ff0043;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb {
+    background: #ff8f1c;
+    border-radius: 30px;
+}
+
+#recuperar
+{    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 65.6%;
+    text-decoration: none;
+}
+
+#recuperar:hover{
+    text-decoration: underline;
+}
+
+#cadastrar
+{
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 90%;
+    right: 40%;
+    text-decoration: none;
+}
+#cadastrar:hover{
+    text-decoration: underline;
+}
+.inputbox {
+    position: relative;
+    background-color: transparent;
+    margin: 20px 0;
+    width: 310px;
+    border-bottom: 2px solid #ff8f1c; 
+}
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus + label,
+input:valid + label{
+    top: -5px;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none; 
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: white;
+}
+/* Largura e cor da barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #121212;
+}
+
+/* Estilo da alça (thumb) da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: #ffffffa1;
+    border-radius: 10px;
+}
+
+/* Estilo do fundo da alça (thumb) da barra de rolagem quando estiver sendo arrastada */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #424242;
+}

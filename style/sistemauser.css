@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&family=Poppins:wght@400;600&display=swap');
+body{
+    overflow: hidden;
+    background-color: #121314;
+    color: white;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+}
+.navbar{
+    background-color: #121212;
+    color: white;
+    margin-bottom: 0;
+    box-shadow: 0px 0px 10px #ff8e1c1d;
+}
+.navbar-brand{
+    color: white;
+    text-shadow: 0px 0px 1px #0c0c0c;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navbar-brand:hover{
+    transition: 0.5s ease-in-out;
+    color: #ff8f1c;
+    text-shadow: 0px 0px 5px #ff8f1c;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.table-bg{
+    color: black;
+}
+.box-search{
+    display: flex;
+    justify-content: center;
+    gap: .1%;
+}
+.btnSair{
+    background-color: #181818;
+    font-size: 15px;
+    letter-spacing: 2.5px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 10px 0;
+    width: 120px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+}
+.btnSair:hover{
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 0px 40px -12px #ff8f1c;
+    color: #2B2D31;
+    background-color: #ff8f1c;
+}
+.btnSearch{
+    background-color: #ff8f1c;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    fill: #2B2D31;
+    margin-left: 0.2%;
+}
+.btnSearch:hover{
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 0px 40px -12px white;
+    color: #2B2D31;
+    background-color: white;
+}
+.barrapesquisar{
+    background-color: white;
+    padding-left : 20px;
+    width: 500px;
+    border-radius: 50px;
+    border: none;
+    margin: none;
+    transition: 0.5s ease-in-out;
+}
+.barrapesquisar:focus{
+    box-shadow: 0px 0px 40px -12px white;
+    outline: none;
+    border: none;
+}
+u{
+    color: #ff8f1c;
+    text-shadow: 0px 0px 8px #ff8f1c;
+}

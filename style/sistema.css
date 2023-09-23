@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&family=Poppins:wght@400;600&display=swap');
+body{
+    overflow: hidden;
+    background: url("img/background-sistema.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 100% 100%;
+    color: white;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+}
+.navbar{
+    background-color: #121212;
+    color: white;
+    margin-bottom: 0;
+    box-shadow: 0px 0px 10px #ff8e1c1d;
+}
+.navbar-brand{
+    color: white;
+    text-shadow: 0px 0px 1px #0c0c0c;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navbar-brand:hover{
+    transition: 0.5s ease-in-out;
+    color: #ff8f1c;
+    text-shadow: 0px 0px 5px #ff8f1c;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.table-bg{
+    color: black;
+}
+.box-search{
+    display: flex;
+    justify-content: center;
+    gap: .1%;
+}
+.btnSair{
+    background-color: #181818;
+    font-size: 15px;
+    letter-spacing: 2.5px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 10px 0;
+    width: 120px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+}
+.btnSair:hover{
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 0px 40px -12px #ff8f1c;
+    color: #2B2D31;
+    background-color: #ff8f1c;
+}
+.btnSearch{
+    background-color: #ff8f1c;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    fill: #2B2D31;
+    margin-left: 0.2%;
+}
+.btnSearch:hover{
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 0px 40px -12px white;
+    color: #2B2D31;
+    background-color: white;
+}
+.barrapesquisar{
+    background-color: white;
+    padding-left : 20px;
+    width: 500px;
+    border-radius: 50px;
+    border: none;
+    margin: none;
+    transition: 0.5s ease-in-out;
+}
+.barrapesquisar:focus{
+    box-shadow: 0px 0px 40px -12px white;
+    outline: none;
+    border: none;
+}
+u{
+    color: #ff8f1c;
+    text-shadow: 0px 0px 8px #ff8f1c;
+}
+.btnDelete{
+    border: none;
+    outline: none;
+    margin: none;
+    fill: #ff8f1c;
+}
+.btnDelete:hover{
+    fill: white;
+}
+.btnEdit{
+    border: none;
+    outline: none;
+    margin: none;
+    fill: #ff8f1c;
+}
+.btnEdit:hover{
+    fill: white;
+}
+.caixa-usuario {
+    background-color: #FFA500;
+    padding: 10px;
+    text-align: center;
+}
+
+.caixa-usuario h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.teste {
+    background-color: #FFA500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.texto {
+    margin: 0;
+    font-size: 36px;
+}
+
+#total {
+    font-size: 24px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.item {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20;
+}
+/* Largura e cor da barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #121212;
+}
+
+/* Estilo da alça (thumb) da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: #ffffffa1;
+    border-radius: 10px;
+}
+
+/* Estilo do fundo da alça (thumb) da barra de rolagem quando estiver sendo arrastada */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #424242;
+}
+
+
+
+
+
+.carrinho{
+    height: 100vh;
+    width: 25vw;
+    background-color: #181818;
+    float: left;
+}
+.itens{
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+}
+.itens-header{
+    height: 2vh;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+.itens-main{
+    margin-top: 5%;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.item-c{
+    width: 100%;
+    height: 7vh;
+    background-color: #121212;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 1vw;
+    border: 1px solid #fed484;
+    display: flex;
+    flex-direction: row;
+}
+    .item-c-qnt{
+        width: 18%;
+        height: 100%;
+        color: #fed484;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .item-c-nome{
+        width: 52%;
+        height: 100%;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .item-c-preço{
+        width: 30%;
+        height: 100%;
+        color: #ff8f1c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.resultados{
+    position: absolute;
+    bottom: 0;
+    height: 20vh;
+    width: 25vw;
+    background-color: #121212;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    width: 75vw;
+    float: right;
+    align-items: center;
+    justify-content: center;
+}
+.t-itens{
+    margin-top: -7vh;
+    width: 59%;
+    height: 76%;
+}
+.cell{
+
+    text-align: center;
+
+}
+.produto{
+    width: 86%;
+    height: 86%;
+    margin: 7%;
+    background-color: #181818;
+    border-bottom-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+}
+.vector-ct{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.preço-ct{
+    height: 30%;
+    width: 100%;
+    background-color: #121212;
+    border-bottom-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+}
+.btn-dashboard{
+    position: absolute;
+    right: 2.2vw;
+    top: 13vh;
+    height: 60px;
+    width: 60px;
+    background-color: rgba(0, 0, 0, 0.57);
+    border-radius: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-dashboard:hover{
+    background-color: #171717;
+    transition:  0.3s ease-in-out;
+}
+

@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !/login.php$
+RewriteCond %{REQUEST_URI} !/testLogin.php$
+RewriteCond %{REQUEST_URI} !/sair.php$
+RewriteCond %{HTTP_COOKIE} !PHPSESSID=[a-zA-Z0-9]+ [NC]
+RewriteRule ^sistema\.php$ login.php [R=301,L]
