@@ -71,7 +71,7 @@ $result_pedido_aberto = mysqli_query($conexao, $sql_pedido_aberto);
         
                     $result = $conexao->query($sql);
         
-                } dsaddsa
+                } 
               
                 if($result->num_rows > 0){
                     $sql2 = "SELECT e.id_dia, pr.id_produto, pr.nome AS nome_produto, pr.preco_cobrado AS preco_produto, COUNT(pp.id_produto) AS quantidade FROM pedidos_produtos AS pp
